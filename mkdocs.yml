@@ -21,9 +21,9 @@ nav:
   - Home: index.md
   - Modules:
     - Getting Started:
-      - Deploy MiniKF on GCP: modules/Getting-Started/minikf-gcp.md
+      - Deploy MiniKF on GCP: modules/getting-started/minikf-gcp.md
     - Notebook Servers:
-      - Deploy a Notebook Server: modules/Notebook-Servers/notebook-server-base-image.md
+      - Deploy a Notebook Server: modules/notebook-servers/notebook-server-base-image.md
     - Pipelines:
       - Transform a Jupyter Notebook into a Kubeflow Pipeline: 
         - Overview:
@@ -33,3 +33,4 @@ nav:
           - Single-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/single-cell.md
           - Multi-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/multi-cell.md
           - Pipeline Step Dependencies: modules/pipelines/notebook-to-pipeline/step-fundamentals/dependencies.md
+        - 'Lab: Organize Modeling Imports': modules/pipelines/notebook-to-pipeline/lab-imports.md 
