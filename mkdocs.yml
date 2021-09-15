@@ -7,10 +7,10 @@ theme:
     primary: black
     accent: indigo
   features:
-#    - content.tabs.link
+    - content.tabs.link
     - navigation.tabs
     - navigation.sections
-#    - navigation.top
+    - navigation.top
 
 markdown_extensions:
   - attr_list
