@@ -19,17 +19,17 @@ Open [Google Cloud Marketplace](https://console.cloud.google.com/marketplace) an
 
 #### 2. Select the MiniKF virtual machine by Arrikto.
 
-![Select the MiniKF virtual machine](/images/select-minikf-virtual-machine.png)
+![Select the MiniKF virtual machine](images/select-minikf-virtual-machine.png)
 
 #### 3. Click the *LAUNCH* button and select your project.
 
-![Click the LAUNCH button](/images/click-virtual-machine-launch-button.png)
+![Click the LAUNCH button](images/click-virtual-machine-launch-button.png)
 
 #### 4. Choose a name and zone for your *MiniKF* instance.
 
 In the Configure & Deploy window, choose a name and a zone for your MiniKF instance and leave the default options. Then click on the Deploy button.
 
-![Choose name and zone](/images/choose-name-and-zone.png)
+![Choose name and zone](assets/images/choose-name-and-zone.png)
 
 #### 5. Wait for the MiniKF compute instance to boot up.
 
