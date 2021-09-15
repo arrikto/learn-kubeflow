@@ -1,4 +1,9 @@
 site_name: Arrikto Academy
+site_url: https://arrikto-academy.github.io/courses
+
+repo_name: arrikto-academy/courses
+repo_url: https://github.com/arrikto-academy/courses
+edit_uri: ""
 
 theme:
   name: material
