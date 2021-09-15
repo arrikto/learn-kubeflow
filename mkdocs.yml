@@ -1,0 +1,35 @@
+site_name: Arrikto Academy
+
+theme:
+  name: material
+  logo: assets/arrikto-mark-white-900px.png
+  palette: 
+    primary: black
+    accent: indigo
+  features:
+#    - content.tabs.link
+    - navigation.tabs
+    - navigation.sections
+#    - navigation.top
+
+markdown_extensions:
+  - attr_list
+  - admonition
+
+
+nav:
+  - Home: index.md
+  - Modules:
+    - Getting Started:
+      - Deploy MiniKF on GCP: modules/Getting-Started/minikf-gcp.md
+    - Notebook Servers:
+      - Deploy a Notebook Server: modules/Notebook-Servers/notebook-server-base-image.md
+    - Pipelines:
+      - Transform a Jupyter Notebook into a Kubeflow Pipeline: 
+        - Overview:
+          - Introduction: modules/pipelines/notebook-to-pipeline/overview/introduction.md
+          - Working Example: modules/pipelines/notebook-to-pipeline/overview/working-example.md
+        - Pipeline Step Fundamentals:
+          - Single-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/single-cell.md
+          - Multi-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/multi-cell.md
+          - Pipeline Step Dependencies: modules/pipelines/notebook-to-pipeline/step-fundamentals/dependencies.md
