@@ -15,6 +15,7 @@ theme:
 #    - content.tabs.link
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
 #    - navigation.top
 
 markdown_extensions:
@@ -24,21 +25,19 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Modules:
-    - Deploy Kubeflow:
-      - Deploy MiniKF on GCP: modules/getting-started/minikf-gcp.md
-    - Notebook Servers:
-      - Deploy a Notebook Server: modules/notebook-servers/notebook-server-base-image.md
-    - Machine Learning Pipelines:
-      - Transform a Jupyter Notebook into a Kubeflow Pipeline: 
-        - Introduction: modules/pipelines/notebook-to-pipeline/introduction.md
+  - Kale 101:
+      - Home: modules/pipelines/notebook-to-pipeline/index.md
+      - Introduction:
+        - Course Overview: modules/pipelines/notebook-to-pipeline/introduction.md
         - Notebook Walkthrough: modules/pipelines/notebook-to-pipeline/working-example.md
-        - Pipeline Step Fundamentals:
-          - Single-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/single-cell.md
-          - Multi-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/multi-cell.md
-          - Pipeline Step Dependencies: modules/pipelines/notebook-to-pipeline/step-fundamentals/dependencies.md
-        - Working with Imports:
-          - Organize Imports Together: modules/pipelines/notebook-to-pipeline/imports-fundamentals/why-organize-imports.md
-          - Example: modules/pipelines/notebook-to-pipeline/imports-fundamentals/example.md
-        - 'Lab: Organize Modeling Imports': modules/pipelines/notebook-to-pipeline/lab-imports.md 
+        - Deploy MiniKF on GCP: modules/getting-started/minikf-gcp.md
+        - Deploy a Notebook Server: modules/notebook-servers/notebook-server-base-image.md
+      - Pipeline Step Fundamentals:
+        - Single-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/single-cell.md
+        - Multi-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/multi-cell.md
+        - Pipeline Step Dependencies: modules/pipelines/notebook-to-pipeline/step-fundamentals/dependencies.md
+      - Working with Imports:
+        - Organize Imports Together: modules/pipelines/notebook-to-pipeline/imports-fundamentals/why-organize-imports.md
+        - Example: modules/pipelines/notebook-to-pipeline/imports-fundamentals/example.md
+      - 'Lab: Organize Modeling Imports': modules/pipelines/notebook-to-pipeline/lab-imports.md 
 
