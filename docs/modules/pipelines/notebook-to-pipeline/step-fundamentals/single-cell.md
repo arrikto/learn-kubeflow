@@ -1,17 +1,17 @@
 # Single-Cell Pipeline Steps
 
-<iframe width="675" height="380" src="https://www.youtube.com/embed/Psq0ELvodgw?rel=0&more=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="675" height="380" src="https://www.youtube.com/embed/wZ4NcD0cdGk?rel=0&more=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Text Version of this Lesson
 
 The first step of our workflow is reading data. That section of the notebook
 looks like this.
 
-![read data](/images/image7.png){: style="display: block; margin: auto; width:80%"}
+![read data](images/image7.png){: style="display: block; margin: auto; width:80%"}
 
 This line of code reads the dataset into a `pandas` data frame.
 
-![read data-line](/images/image53.png){: style="display: block; margin: auto; width:80%"}
+![read data-line](images/image53.png){: style="display: block; margin: auto; width:80%"}
 
 When working with Kubeflow pipelines, it’s important to be specific about
 exactly what code implements a pipeline step and to consider the modules on
@@ -35,14 +35,14 @@ then apply a few annotations.
 Modify your code so that the line that reads the car_prices.csv file is in a
 cell by itself.
 
-![read_data step](/images/image63.png){: style="display: block; margin: auto; width:80%"}
+![read_data step](images/image63.png){: style="display: block; margin: auto; width:80%"}
 
 ### Annotate the cell as a *Pipeline Step* and name it
 
 Click the pencil icon on that cell and set the *Cell type* to *Pipeline Step*
 and the *Step name* to `read_data`.
 
-![annotated read_data step](/images/image43.png){: style="display: block; margin: auto; width:80%"}
+![annotated read_data step](images/image43.png){: style="display: block; margin: auto; width:80%"}
 
 Click the x to close the annotation editor.
 

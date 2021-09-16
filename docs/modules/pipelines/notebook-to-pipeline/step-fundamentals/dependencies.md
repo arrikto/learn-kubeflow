@@ -16,7 +16,7 @@ The step `clean_data` relies on `read_data` to read our dataset into a `pandas`
 data frame (`df_auto`) so we need to define that relationship and establish the
 sequence in which these two steps should execute.
 
-![clean_data dependency](/images/image59.png){: style="display: block; margin: auto; width:80%"}
+![clean_data dependency](images/image59.png){: style="display: block; margin: auto; width:80%"}
 
 With the work we’ve done so far, we now have a two-step pipeline that we can
 summarize as follows.
