@@ -1,8 +1,5 @@
 # Dependencies Between Pipeline Steps
 
-
-## Dependencies Between Pipeline Steps (Text Version)
-
 In order to define a pipeline you need to identify not just the code that makes
 up the step, but also specify the order in which the steps of your pipeline
 should execute. To do this, select which step (or steps) should immediately
