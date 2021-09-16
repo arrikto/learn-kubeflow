@@ -33,7 +33,7 @@ nav:
       - Transform a Jupyter Notebook into a Kubeflow Pipeline: 
         - Overview:
           - Introduction: modules/pipelines/notebook-to-pipeline/overview/introduction.md
-          - Working Example: modules/pipelines/notebook-to-pipeline/overview/working-example.md
+          - Notebook Walkthrough: modules/pipelines/notebook-to-pipeline/overview/working-example.md
         - Pipeline Step Fundamentals:
           - Single-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/single-cell.md
           - Multi-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/multi-cell.md
