@@ -1,4 +1,4 @@
-# Example: Organize Imports in our Notebook
+# Apply the Imports Annotation
 
 We’ll do a bit more reorganization in the Modeling section later in this
 module, so for now, let’s just focus on the portion of our notebook up to

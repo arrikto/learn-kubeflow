@@ -1,4 +1,4 @@
-# Organize Imports Together
+# Gather Imports in One Cell
 
 ## Why?
 

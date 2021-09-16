@@ -26,18 +26,25 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Kale 101:
-      - Home: modules/pipelines/notebook-to-pipeline/index.md
+      - Home: modules/notebook-to-pipeline/index.md
       - Introduction:
-        - Course Overview: modules/pipelines/notebook-to-pipeline/introduction.md
-        - Notebook Walkthrough: modules/pipelines/notebook-to-pipeline/working-example.md
-        - Deploy MiniKF on GCP: modules/getting-started/minikf-gcp.md
+        - Course Overview: modules/notebook-to-pipeline/introduction.md
+        - Notebook Walkthrough: modules/notebook-to-pipeline/working-example.md
+        - Deploy MiniKF on GCP: modules/deploy/minikf-gcp.md
         - Deploy a Notebook Server: modules/notebook-servers/notebook-server-base-image.md
       - Pipeline Step Fundamentals:
-        - Single-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/single-cell.md
-        - Multi-Cell Pipeline Steps: modules/pipelines/notebook-to-pipeline/step-fundamentals/multi-cell.md
-        - Pipeline Step Dependencies: modules/pipelines/notebook-to-pipeline/step-fundamentals/dependencies.md
+        - Single-Cell Pipeline Steps: modules/notebook-to-pipeline/step-fundamentals/single-cell.md
+        - Multi-Cell Pipeline Steps: modules/notebook-to-pipeline/step-fundamentals/multi-cell.md
+        - Pipeline Step Dependencies: modules/notebook-to-pipeline/step-fundamentals/dependencies.md
       - Working with Imports:
-        - Organize Imports Together: modules/pipelines/notebook-to-pipeline/imports-fundamentals/why-organize-imports.md
-        - Example: modules/pipelines/notebook-to-pipeline/imports-fundamentals/example.md
-      - 'Lab: Organize Modeling Imports': modules/pipelines/notebook-to-pipeline/lab-imports.md 
+        - Gather Imports in One Cell: modules/notebook-to-pipeline/imports-fundamentals/why-organize-imports.md
+        - Apply the Imports Annotation: modules/notebook-to-pipeline/imports-fundamentals/example.md
+        - 'Lab: Organize Modeling Imports': modules/notebook-to-pipeline/lab-imports.md 
+      - Excluding Cells from Pipelines: 
+        - Skip Cells Not Used in a Step: modules/notebook-to-pipeline/exclude/skip-cells.md
+        - 'Lab: Skip Cells': modules/notebook-to-pipeline/exclude/lab-skip-cells.md
+        - Skip Sections Not Used: modules/notebook-to-pipeline/exclude/skip-sections.md
+        - 'Lab: Skip Section': modules/notebook-to-pipeline/exclude/lab-skip-sections.md
+      - Lab Solutions:
+        - 'Solution - Lab: Skip Cells': modules/notebook-to-pipeline/exclude/lab-skip-cells-solution.md
 
