@@ -52,4 +52,6 @@ nav:
       - Lab Solutions:
         - 'Solution - Lab: Imports': modules/notebook-to-pipeline/imports/lab-imports-solution.md
         - 'Solution - Lab: Skip Cells': modules/notebook-to-pipeline/exclude/lab-skip-cells-solution.md
+        - 'Solution - Lab: Create prep_data': modules/notebook-to-pipeline/fundamentals-labs/lab-prep_data-solution.md
+        - 'Solution - Lab: Create split_data': modules/notebook-to-pipeline/fundamentals-labs/lab-split_data-solution.md
 

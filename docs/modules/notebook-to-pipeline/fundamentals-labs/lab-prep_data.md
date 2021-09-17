@@ -23,5 +23,6 @@ please modify your copy of our notebook to meet the following requirements:
 
 ## Solution
 
-When you are finished, compare your notebook to the solution and make any necessary
-changes so that your notebook matches the solution.
+When you are finished, compare your notebook to the
+[solution](lab-prep_data-solution.md) and make any necessary changes so that
+your notebook matches the solution.

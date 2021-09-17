@@ -1,13 +1,8 @@
 # Home
 
-## Quick Start Tutorials
-
-* `Tutorial 1` - Tutorial 1
-* `Tutorial 2` - Tutorial 2
-* `Tutorial 3` - Tutorial 3
-* `Tutorial 4` - Tutorial 4
+## Welcome to Arrikto Academy!
 
 ## Courses
 
-* Transform a Jupyter Notebook into a Kubeflow Pipeline
+* [Kale : Transform Jupyter Notebooks into Kubeflow Pipelines](modules/notebook-to-pipeline/)
 
