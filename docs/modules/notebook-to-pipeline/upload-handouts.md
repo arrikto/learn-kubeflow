@@ -1,0 +1,82 @@
+# Get Dataset and Code
+
+To work through this module you will need the code and data we have provided.
+Please download and unzip the [handout](handouts/learn_kubeflow_pipelines_handouts.zip).
+
+## Upload the handout files
+
+Once you’ve unzipped the handout, you should see the following files.
+
+#### 1. Review the handout files
+
+![handouts](images/handouts.png)
+{: style="display: block; margin: auto; width:80%"}
+
+`car_prices.csv` is our data file.
+
+`data_dictionary-carprices.xlsx` provides some explanatory detail on our
+dataset.
+
+`predict_car_price.ipynb` is a notebook containing Python code that builds and
+evaluates three models for predicting car prices based on our dataset. We will
+modify the code in small ways and annotate this notebook to define and run a
+Kubeflow pipeline!
+
+#### 2. Open the learn-kubeflow-pipelines-vol-1 folder
+
+Double-click on the directory, `learn-kubeflow-pipelines-vol-1`.
+
+![vol 1 directory](images/learn-directory.png)
+{: style="display: block; margin: auto; width:80%"}
+
+#### 3. Click the file upload button
+
+![upload files](images/upload-files.png)
+{: style="display: block; margin: auto; width:80%"}
+
+#### 4. Upload handout files
+
+ In the file dialog that pops up, select the three handout files you unzipped
+ and upload them to your Jupyter notebook environment.
+
+![select handout files](images/select-handouts.png)
+{: style="display: block; margin: auto; width:80%"}
+
+You will see them appear in the `learn-kubeflow-pipelines-vol-1` directory.
+
+![vol 1 directory](images/new-folder-button.png)
+{: style="display: block; margin: auto; width:80%"}
+
+#### 5. Create a new folder
+
+Click the button to create a new folder.
+
+![create folder](images/create-folder.png)
+{: style="display: block; margin: auto; width:80%"}
+
+#### 6. Name the folder "data"
+
+![name the folder](images/name-folder.png)
+{: style="display: block; margin: auto; width:80%"}
+
+#### 7. Move data files
+
+Drag and drop `car_prices.csv` and `data_dictionary-carprices.xlsx` into the
+data folder.
+
+![move data](images/move-data.png)
+{: style="display: block; margin: auto; width:80%"}
+
+#### 8. Open our notebook
+
+Double-click `predict_car_price.ipynb` in the file browser pane.
+
+![open our notebook](images/open-predict_car_price.png)
+{: style="display: block; margin: auto; width:80%"}
+
+#### 9. Enable Kale
+
+Click the *Enable* toggle in the *Kale Deployment panel* to enable Kale.
+
+![enable Kale](images/enable-kale.png)
+{: style="display: block; margin: auto; width:80%"}

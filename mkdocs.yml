@@ -39,6 +39,7 @@ nav:
         - Notebook Walkthrough: modules/notebook-to-pipeline/working-example.md
         - Deploy MiniKF on GCP: modules/deploy/minikf-gcp.md
         - Deploy a Notebook Server: modules/notebook-servers/notebook-server-base-image.md
+        - Get Dataset and Code: modules/notebook-to-pipeline/upload-handouts.md
       - Pipeline Step Fundamentals:
         - Single-Cell Pipeline Steps: modules/notebook-to-pipeline/steps/single-cell.md
         - Multi-Cell Pipeline Steps: modules/notebook-to-pipeline/steps/multi-cell.md
