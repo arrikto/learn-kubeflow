@@ -1,8 +1,8 @@
 site_name: Arrikto Academy
-site_url: https://arrikto-academy.github.io/courses
+site_url: https://arrikto-academy.github.io/learn-kubeflow
 
 repo_name: arrikto-academy/courses
-repo_url: https://github.com/arrikto-academy/courses
+repo_url: https://github.com/arrikto-academy/learn-kubeflow
 edit_uri: ""
 
 theme:
@@ -44,7 +44,7 @@ nav:
         - Skip Cells Not Used in a Step: modules/notebook-to-pipeline/exclude/skip-cells.md
         - 'Lab: Skip Cells': modules/notebook-to-pipeline/exclude/lab-skip-cells.md
         - Skip Sections Not Used: modules/notebook-to-pipeline/exclude/skip-sections.md
-        - 'Lab: Skip Section': modules/notebook-to-pipeline/exclude/lab-skip-sections.md
+        - 'Lab: Skip Section': modules/notebook-to-pipeline/exclude/lab-skip-section.md
       - Lab Solutions:
         - 'Solution - Lab: Skip Cells': modules/notebook-to-pipeline/exclude/lab-skip-cells-solution.md
 

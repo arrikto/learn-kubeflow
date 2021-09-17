@@ -1,5 +1,15 @@
 # Solution - Lab: Skip Cells
 
+## Requirements
+1. Update the cells in the *Clean Data* section of our notebook so that cells
+not necessary for cleaning data will be excluded from the `clean_data` pipeline
+step. Here’s what `clean_data` looks like as you begin this exercise. 
+
+![clean data step](images/clean_data.png)
+{: style="display: block; margin: auto; width:80%"}
+
+## Solution
+
 We definitely need the first cell in the *Clean Data* section so no changes
 are required here.
 
