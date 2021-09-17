@@ -18,10 +18,17 @@ theme:
     - navigation.indexes
 #    - navigation.top
 
+extra:
+  analytics:
+    provider: google
+    property: UA-49880327-14
+
+extra_javascript:
+  - javascripts/bp.js
+
 markdown_extensions:
   - attr_list
   - admonition
-
 
 nav:
   - Home: index.md
