@@ -57,6 +57,9 @@ nav:
         - 'Lab: Create prep_data Step': modules/notebook-to-pipeline/fundamentals-labs/lab-prep_data.md
         - 'Lab: Create split_data Step': modules/notebook-to-pipeline/fundamentals-labs/lab-split_data.md
         - 'Checkpoint: Kale Fundamentals': modules/notebook-to-pipeline/checkpoint-fundamentals.md 
+      - Pipeline Design:
+        - Design for Iteration: modules/notebook-to-pipeline/pipeline-design/iteration.md
+        - Example: modules/notebook-to-pipeline/pipeline-design/iteration.md
       - Lab Solutions:
         - 'Solution - Lab: Imports': modules/notebook-to-pipeline/imports/lab-imports-solution.md
         - 'Solution - Lab: Skip Cells': modules/notebook-to-pipeline/exclude/lab-skip-cells-solution.md
