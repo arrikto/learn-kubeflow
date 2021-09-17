@@ -59,7 +59,7 @@ nav:
         - 'Checkpoint: Kale Fundamentals': modules/notebook-to-pipeline/checkpoint-fundamentals.md 
       - Pipeline Design:
         - Design for Iteration: modules/notebook-to-pipeline/pipeline-design/iteration.md
-        - Example: modules/notebook-to-pipeline/pipeline-design/iteration.md
+        - Apply this Design Principle: modules/notebook-to-pipeline/pipeline-design/example.md
       - Lab Solutions:
         - 'Solution - Lab: Imports': modules/notebook-to-pipeline/imports/lab-imports-solution.md
         - 'Solution - Lab: Skip Cells': modules/notebook-to-pipeline/exclude/lab-skip-cells-solution.md

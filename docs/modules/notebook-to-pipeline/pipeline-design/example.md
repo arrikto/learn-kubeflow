@@ -1,4 +1,4 @@
-# Example
+# Apply this Design Principle
 
 As an example of designing pipelines for iteration, we’ll demonstrate
 reorganizing the code for the LGBM regression model into separate cells and
