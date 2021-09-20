@@ -5,7 +5,7 @@ training and evaluating three models simultaneously. It doesn’t make sense to
 combine the model training and evaluation code in a single cell or step as we
 have it in the example depicted below. 
 
-![move data](images/lgbm-cell.png)
+![lgbm cell](images/lgbm-cell.png)
 {: style="display: block; margin: auto; width:80%"}
 
 We can use the resources of a Kubernetes cluster more efficiently if we split

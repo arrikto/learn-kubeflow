@@ -62,6 +62,9 @@ nav:
         - Apply this Design Principle: modules/notebook-to-pipeline/pipeline-design/example.md
         - 'Lab: RF train and eval steps': modules/notebook-to-pipeline/pipeline-design/lab-rf-train-eval.md
         - 'Lab: XGB train and eval steps': modules/notebook-to-pipeline/pipeline-design/lab-xgb-train-eval.md
+      - Functions Cells:
+        - When to use Functions Cells: modules/notebook-to-pipeline/functions-cells/when-functions.cells.md
+        - Create a Functions Cell: modules/notebook-to-pipeline/functions-cells/create-functions-cell.md
       - Lab Solutions:
         - 'Solution - Lab: Imports': modules/notebook-to-pipeline/imports/lab-imports-solution.md
         - 'Solution - Lab: Skip Cells': modules/notebook-to-pipeline/exclude/lab-skip-cells-solution.md
