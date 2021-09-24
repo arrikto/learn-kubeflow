@@ -111,4 +111,4 @@ Install the Python modules required by this notebook.
 In the `predict_car_price.ipynb` notebook, restart the kernel.
 
 ![restart kernel](images/restart-kernel.png)
-{: style="display: block; margin: auto; width:80%"
+{: style="display: block; margin: auto; width:80%"}
