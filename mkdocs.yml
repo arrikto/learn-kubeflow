@@ -5,6 +5,10 @@ repo_name: arrikto/learn-kubeflow
 repo_url: https://github.com/arrikto-academy/learn-kubeflow
 edit_uri: ""
 
+plugins:
+  - search
+  - include-markdown
+
 theme:
   name: material
   logo: assets/arrikto-mark-white-900px.png
@@ -16,6 +20,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
+    - search.suggest
 #    - navigation.top
 
 extra:
@@ -37,7 +42,7 @@ nav:
       - Introduction:
         - Course Overview: modules/notebook-to-pipeline/introduction.md
         - Notebook Walkthrough: modules/notebook-to-pipeline/working-example.md
-        - Deploy MiniKF on GCP: modules/deploy/minikf-gcp.md
+        - Deploy MiniKF on GCP: modules/notebook-to-pipeline/minikf-gcp.md
         - Deploy a Notebook Server: modules/notebook-servers/notebook-server-base-image.md
         - Get Dataset and Code: modules/notebook-to-pipeline/upload-handouts.md
       - Pipeline Step Fundamentals:

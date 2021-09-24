@@ -22,6 +22,9 @@ evaluates three models for predicting car prices based on our dataset. We will
 modify the code in small ways and annotate this notebook to define and run a
 Kubeflow pipeline!
 
+`requirements.txt` lists the Python modules required for our notebook. We'll
+use this file to install those requirements in a later step.
+
 #### 2. Open the learn-kubeflow-pipelines-vol-1 folder
 
 Double-click on the directory, `learn-kubeflow-pipelines-vol-1`.
@@ -44,14 +47,14 @@ Double-click on the directory, `learn-kubeflow-pipelines-vol-1`.
 
 You will see them appear in the `learn-kubeflow-pipelines-vol-1` directory.
 
-![vol 1 directory](images/new-folder-button.png)
+![vol 1 directory](images/uploaded-files.png)
 {: style="display: block; margin: auto; width:80%"}
 
 #### 5. Create a new folder
 
 Click the button to create a new folder.
 
-![create folder](images/create-folder.png)
+![create folder](images/new-folder-button.png)
 {: style="display: block; margin: auto; width:80%"}
 
 #### 6. Name the folder "data"
@@ -80,3 +83,32 @@ Click the *Enable* toggle in the *Kale Deployment panel* to enable Kale.
 
 ![enable Kale](images/enable-kale.png)
 {: style="display: block; margin: auto; width:80%"}
+
+#### 10. Launch a Terminal
+
+Click the *Launcher* tab and launch a terminal.
+
+![launch terminal](images/launch-terminal.png)
+{: style="display: block; margin: auto; width:80%"}
+
+#### 11. Install Requirements
+
+In the terminal enter the following commands.
+
+Change to the learn-kubeflow-pipelines-vol-1 directory.
+
+`cd learn-kubeflow-pipelines-vol-1`
+
+Install the Python modules required by this notebook.
+
+`pip install -r requirements.txt`
+
+![launch terminal](images/install.png)
+{: style="display: block; margin: auto; width:80%"}
+
+#### 12. Restart the Kernel
+
+In the `predict_car_price.ipynb` notebook, restart the kernel.
+
+![restart kernel](images/restart-kernel.png)
+{: style="display: block; margin: auto; width:80%"
