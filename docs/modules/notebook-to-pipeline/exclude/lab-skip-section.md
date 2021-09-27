@@ -13,6 +13,8 @@ building.
 
 ## Solution
 
-- When you’re done, every cell in the Visualize Data section should be marked
-with the *Skip Cell* annotation. 
-- In total there should be six cells you’ll need to annotate as a Skip Cell.
+??? "Expand to see solution"
+
+    - When you’re done, every cell in the Visualize Data section should be marked
+      with the *Skip Cell* annotation. 
+    - In total there should be six cells you’ll need to annotate as a Skip Cell.
