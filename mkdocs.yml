@@ -1,8 +1,8 @@
 site_name: Arrikto Academy
-site_url: https://arrikto-academy.github.io/learn-kubeflow
+site_url: https://academy.arrikto.com
 
 repo_name: arrikto/learn-kubeflow
-repo_url: https://github.com/arrikto-academy/learn-kubeflow
+repo_url: https://github.com/arrikto/learn-kubeflow
 edit_uri: ""
 
 plugins:
