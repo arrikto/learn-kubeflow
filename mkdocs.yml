@@ -79,4 +79,5 @@ nav:
         - 'Solution - Lab: Create split_data': modules/notebook-to-pipeline/fundamentals-labs/lab-split_data-solution.md
         - 'Solution - Lab: RF train and eval': modules/notebook-to-pipeline/pipeline-design/lab-rf-train-eval-solution.md
         - 'Solution - Lab: XGB train and eval': modules/notebook-to-pipeline/pipeline-design/lab-xgb-train-eval-solution.md
+  - MiniKF FAQ: modules/minikf-faq.md
 
