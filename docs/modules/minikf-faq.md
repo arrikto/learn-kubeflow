@@ -133,8 +133,10 @@ https://www.kubeflow.org/docs/gke/deploy/project-setup/
 https://www.kubeflow.org/docs/started/workstation/minikf-gcp/
 
 **Question**: When I try to get MiniKF to run on GCP, I get an QUOTA_EXCEEDED error.
-![quota_error_message](images/quota_error_messages.png)
-**Answer**: 
+![quota_error_message](images/quota_exceeded_error.png)
+**Answer**: For default values, MiniKF requires 200G for boot disk and 500G for data disk. 
+You will need to select a region with a greater quota limit. Please request a quota increase for your account if none are available. 
+
 
 ### MiniKF & Windows
 **Question**: If i have to install Kubeflow on Windows should I install MiniKF
