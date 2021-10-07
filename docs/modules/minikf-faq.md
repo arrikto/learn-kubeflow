@@ -99,7 +99,8 @@ your changes based on what is in the Vagrantfile. So, it's best to edit the
 Vagrantfile and specify the CPU and  RAM you need. 
 
 **Question**: During install Vagrant hangs at pod 33 / 34.  
-**Answer**: This is likely due to a memory issue, make sure that the Vagrantfile is providing 24 (okay) - 32 (best) GB of Ram.
+**Answer**: This is likely due to a memory issue, make sure that the Vagrantfile is providing 24 GB (okay) - 32 (best) GB of Ram for 
+Kubelow install.
 
 **Question**: How do I access MiniKF behind a proxy?  
 **Answer**: To access MiniKF behind a proxy you can use the
