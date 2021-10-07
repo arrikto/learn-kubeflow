@@ -123,6 +123,9 @@ To turn it back on:
 1. Run `bcdedit /set hypervisorlaunchtype`
 2. Reboot
 
+**Question**: After completing Vagrant install unable to open http://10.10.10.10/ due to timeout.
+
+**Answer**: Destroy and restart the VM to resolve the issue. 
 
 ### MiniKF & GCP
 **Question**: When I try to get MiniKF to run on GCP, I get resource level
