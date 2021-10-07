@@ -21,13 +21,13 @@ MiniKF also includes Arrikto's Rok software for advanced data management, giving
 you data versioning, reproducible pipelines, data protection for your notebooks,
 and the foundation to share workloads along with data across K8s clusters.
 
-**Question**: Do I need to start the VM to access MiniKF Kubeflow UI?
+**Question**: Do I need to start the VM to access MiniKF Kubeflow UI?  
 **Answer**: Yes, the VM needs to be started and MiniKF needs to start up before the endpoint URL can be accessed.
 
-**Question**: Do I need to run `minikf` in order to start MiniKF in the VM?
+**Question**: Do I need to run `minikf` in order to start MiniKF in the VM?  
 **Answer**: No, you can SSH into the VM and execute `minikf` to see status but it will autostart.
 
-**Question**: Does the login URL for the Kubeflow UI change each time VM is started?
+**Question**: Does the login URL for the Kubeflow UI change each time VM is started?  
 **Answer**: For GCP the URL will be static, for AWS it will change and it will be necessary 
 to wait until the VM and MiniKF have started to see the new URL. 
 
@@ -59,7 +59,7 @@ config.vm.network "forwarded_port", guest: 80, host: 8081    # MiniKF Terminal
 config.vm.network "forwarded_port", guest: 8080, host: 8080  # KubeFlow
 config.vm.network "forwarded_port", guest: 7681, host: 7681  # 
 ```
-Although MiniKF Terminal is available, Kubeflow UI is not responding.  
+Although MiniKF Terminal is available, Kubeflow UI is not responding.   
 
 **Answer**: Add in guest_ip: "10.10.10.10"  in the above lines
 ```
@@ -98,7 +98,7 @@ VirtualBox UI, you shouldn't, because Vagrant will overwrite [at least some of]
 your changes based on what is in the Vagrantfile. So, it's best to edit the
 Vagrantfile and specify the CPU and  RAM you need. 
 
-**Question**: During install Vagrant hangs at pod 33 / 34.
+**Question**: During install Vagrant hangs at pod 33 / 34.  
 **Answer**: This is likely due to a memory issue, make sure that the Vagrantfile is providing 24 (okay) - 32 (best) GB of Ram.
 
 **Question**: How do I access MiniKF behind a proxy?  
@@ -114,14 +114,14 @@ VT-x is not available (VERR_VMX_NO_VMX)
 **Answer**: Hyper-V disables VT-x for other hypervisors, so VirtualBox cannot use it. Hyper-V disables VT-x for other hypervisors and VirtualBox says there is not VT-x available because when hyper-V is installed on Windows, the hypervisor is running all the time underneath the host OS. 
 Only one process can control the VT hardware at a time for stability. The hypervisor blocks all other calls to the VT hardware. To
 proceed, you need to disable Hyper-V: 
-1. Open CMD as administrator
+1. Open CMD as administrator. 
 2. Turn off Hyper-V by running:  
-   `bcdedit /set hypervisorlaunchtype off`
-3. Reboot
+   `bcdedit /set hypervisorlaunchtype off`. 
+3. Reboot. 
 
-To turn it back on:
-1. Run `bcdedit /set hypervisorlaunchtype`
-2. Reboot
+To turn it back on:  
+1. Run `bcdedit /set hypervisorlaunchtype`. 
+2. Reboot. 
 
 
 ### MiniKF & GCP
@@ -132,7 +132,7 @@ errors.
 https://www.kubeflow.org/docs/gke/deploy/project-setup/
 https://www.kubeflow.org/docs/started/workstation/minikf-gcp/
 
-**Question**: When I try to get MiniKF to run on GCP, I get an QUOTA_EXCEEDED error.
+**Question**: When I try to get MiniKF to run on GCP, I get an QUOTA_EXCEEDED error.  
 ![quota_error_message](images/quota_exceeded_error.png)
 **Answer**: For default values, MiniKF requires 200G for boot disk and 500G for data disk. 
 You will need to select a region with a greater quota limit. Please request a quota increase for your account if none are available. 
@@ -155,14 +155,14 @@ https://www.kubeflow.org/docs/started/workstation/minikf-gcp/
 ### MiniKF & Notebooks
 **Question**: When I do a PIP install, it says permission denied. When I open a
 terminal through Jupyter notebook and run sudo pip install, it asks for a
-password for the account jovyan. Please help.  
-**Answer**: Hi @username, please run this command from inside a Notebook Server:
+password for the account jovyan. 
+**Answer**: Please run this command from inside a Notebook Server:
 ```
 pip3 install --user <lirary>
 ```
 
 **Question**: A pipeline step fails with the following Rok-related error:
-![pipeline step rok error](../images/minikf-troubleshooting/run-step-error-rok.jpg "Title")
+![pipeline step rok error](../images/minikf-troubleshooting/run-step-error-rok.jpg "Title"). 
 **Answer**: Hi @username, it seems that you are out of space, you should delete
 some workflows and/or PVCs. Let me know if this works.
 
