@@ -77,10 +77,11 @@ https://www.kubeflow.org/docs/other-guides/virtual-dev/getting-started-minikf/#s
 install MiniKF.  
 **Answer**: While we test MiniKF on various MacBook models we can't test it exhaustively on all of them. 
 With that said in general consider:
-- Monitoring your CPU utilization and check if your Macbook overheats when
+
+1. Monitoring your CPU utilization and check if your Macbook overheats when
    starting MiniKF.
-- Consider using a faster machine, if you have one available.
-- Try MiniKF on GCP.
+2. Consider using a faster machine, if you have one available.
+3. Try MiniKF on GCP.
    https://www.kubeflow.org/docs/started/workstation/minikf-gcp/
 
 **Question**: Can I expose the MiniKF UI to be accessed from outside the host?  
@@ -177,18 +178,19 @@ Collecting MiniKF logs depends on where MiniKF is being used.
 
 ### Vagrant
 For Vagrant, in general, to collect and review logs you must:
-1. `vagrant ssh` into your MiniKF VM
+
+1. `vagrant ssh` into your MiniKF VM. 
 2. run `minikf-gather-logs`. This will produce a tarball `.tgz` file in your
-   MiniKF directory.
-3. Open the tarball file to see logs.
+   MiniKF directory.  
+3. Open the tarball file to see logs.  
 4. When necessary and instructed share the tarball file with Arrikto experts. 
 
 ### GCP
-For GCP, in general, to collect and review logs you must:
-1. [SSH from the Browser window](https://cloud.google.com/compute/docs/ssh-in-browser)
+For GCP, in general, to collect and review logs you must: 
+1. [SSH from the Browser window](https://cloud.google.com/compute/docs/ssh-in-browser). 
 2. run `minikf-gather-logs`. This will produce a tarball `.tar.bz2` file under
-   `/vagrant/`.
+   `/vagrant/`.  
 3. Download the file as described in [this guide](https://cloud.google.com/compute/docs/instances/transfer-files#transferbrowser).
-   The exact path to download the logs file is `/vagrant/minikf-logs-<date>-<time>.tar.bz2`.
-4. Open the tarball file to see logs.
-5. When necessary and instructed share the tarball file with Arrikto experts. 
+   The exact path to download the logs file is `/vagrant/minikf-logs-<date>-<time>.tar.bz2`.  
+4. Open the tarball file to see logs.  
+5. When necessary and instructed share the tarball file with Arrikto experts.   
