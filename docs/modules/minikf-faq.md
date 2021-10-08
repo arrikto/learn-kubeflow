@@ -127,8 +127,7 @@ To turn it back on:
 1. Run `bcdedit /set hypervisorlaunchtype`. 
 2. Reboot. 
 
-**Question**: After completing Vagrant install unable to open http://10.10.10.10/ due to timeout.
-
+**Question**: After completing Vagrant install unable to open http://10.10.10.10/ due to timeout.  
 **Answer**: Destroy and restart the VM to resolve the issue. 
 
 ### MiniKF & GCP
@@ -162,7 +161,7 @@ https://www.kubeflow.org/docs/started/workstation/minikf-gcp/
 ### MiniKF & Notebooks
 **Question**: When I do a PIP install, it says permission denied. When I open a
 terminal through Jupyter notebook and run sudo pip install, it asks for a
-password for the account jovyan. 
+password for the account jovyan.  
 **Answer**: Please run this command from inside a Notebook Server:
 ```
 pip3 install --user <lirary>
@@ -187,6 +186,7 @@ For Vagrant, in general, to collect and review logs you must:
 
 ### GCP
 For GCP, in general, to collect and review logs you must: 
+
 1. [SSH from the Browser window](https://cloud.google.com/compute/docs/ssh-in-browser). 
 2. run `minikf-gather-logs`. This will produce a tarball `.tar.bz2` file under
    `/vagrant/`.  
