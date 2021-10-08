@@ -77,10 +77,10 @@ https://www.kubeflow.org/docs/other-guides/virtual-dev/getting-started-minikf/#s
 install MiniKF.  
 **Answer**: While we test MiniKF on various MacBook models we can't test it exhaustively on all of them. 
 With that said in general consider:
-1. Monitoring your CPU utilization and check if your Macbook overheats when
+- Monitoring your CPU utilization and check if your Macbook overheats when
    starting MiniKF.
-2. Consider using a faster machine, if you have one available.
-3. Try MiniKF on GCP.
+- Consider using a faster machine, if you have one available.
+- Try MiniKF on GCP.
    https://www.kubeflow.org/docs/started/workstation/minikf-gcp/
 
 **Question**: Can I expose the MiniKF UI to be accessed from outside the host?  
@@ -115,12 +115,14 @@ VT-x is not available (VERR_VMX_NO_VMX)
 **Answer**: Hyper-V disables VT-x for other hypervisors, so VirtualBox cannot use it. Hyper-V disables VT-x for other hypervisors and VirtualBox says there is not VT-x available because when hyper-V is installed on Windows, the hypervisor is running all the time underneath the host OS. 
 Only one process can control the VT hardware at a time for stability. The hypervisor blocks all other calls to the VT hardware. To
 proceed, you need to disable Hyper-V: 
+
 1. Open CMD as administrator. 
 2. Turn off Hyper-V by running:  
    `bcdedit /set hypervisorlaunchtype off`. 
 3. Reboot. 
 
 To turn it back on:  
+
 1. Run `bcdedit /set hypervisorlaunchtype`. 
 2. Reboot. 
 
