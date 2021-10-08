@@ -167,11 +167,6 @@ password for the account jovyan.
 pip3 install --user <lirary>
 ```
 
-**Question**: A pipeline step fails with the following Rok-related error:
-![pipeline step rok error](../images/minikf-troubleshooting/run-step-error-rok.jpg "Title"). 
-**Answer**: Hi @username, it seems that you are out of space, you should delete
-some workflows and/or PVCs. Let me know if this works.
-
 ## MiniKF Logs
 Collecting MiniKF logs depends on where MiniKF is being used. 
 
