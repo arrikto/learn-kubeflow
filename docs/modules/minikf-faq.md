@@ -77,6 +77,7 @@ https://www.kubeflow.org/docs/other-guides/virtual-dev/getting-started-minikf/#s
 install MiniKF.  
 **Answer**: While we test MiniKF on various MacBook models we can't test it exhaustively on all of them. 
 With that said in general consider:
+
 1. Monitoring your CPU utilization and check if your Macbook overheats when
    starting MiniKF.
 2. Consider using a faster machine, if you have one available.
@@ -115,17 +116,18 @@ VT-x is not available (VERR_VMX_NO_VMX)
 **Answer**: Hyper-V disables VT-x for other hypervisors, so VirtualBox cannot use it. Hyper-V disables VT-x for other hypervisors and VirtualBox says there is not VT-x available because when hyper-V is installed on Windows, the hypervisor is running all the time underneath the host OS. 
 Only one process can control the VT hardware at a time for stability. The hypervisor blocks all other calls to the VT hardware. To
 proceed, you need to disable Hyper-V: 
+
 1. Open CMD as administrator. 
 2. Turn off Hyper-V by running:  
    `bcdedit /set hypervisorlaunchtype off`. 
 3. Reboot. 
 
 To turn it back on:  
+
 1. Run `bcdedit /set hypervisorlaunchtype`. 
 2. Reboot. 
 
-**Question**: After completing Vagrant install unable to open http://10.10.10.10/ due to timeout.
-
+**Question**: After completing Vagrant install unable to open http://10.10.10.10/ due to timeout.  
 **Answer**: Destroy and restart the VM to resolve the issue. 
 
 ### MiniKF & GCP
@@ -145,48 +147,45 @@ You will need to select a region with a greater quota limit. Please request a qu
 ### MiniKF & Windows
 **Question**: If i have to install Kubeflow on Windows should I install MiniKF
 only or is there is something else I can install?  
-**Answer**: Hi @username, you should only install MiniKF assuming you already
+**Answer**: You should only install MiniKF assuming you already
 have Vagrant and VirtualBox on your windows machine. See the requirements here:
 https://www.kubeflow.org/docs/other-guides/virtual-dev/getting-started-minikf/
 
 ### MiniKF & MacOS
 **Question**: I’d like to try MiniKF on macos, but I don’t want to install
 VirtualBox. How can I get it working with HyperKit or Docker?  
-**Answer**: Hi @username, VirtualBox is a prerequisite for using MiniKF on your
+**Answer**: VirtualBox is a prerequisite for using MiniKF on your
 laptop. As an alternative, you can use MiniKF on GCP:
 https://www.kubeflow.org/docs/started/workstation/minikf-gcp/
 
 ### MiniKF & Notebooks
 **Question**: When I do a PIP install, it says permission denied. When I open a
 terminal through Jupyter notebook and run sudo pip install, it asks for a
-password for the account jovyan. 
+password for the account jovyan.  
 **Answer**: Please run this command from inside a Notebook Server:
 ```
 pip3 install --user <lirary>
 ```
-
-**Question**: A pipeline step fails with the following Rok-related error:
-![pipeline step rok error](../images/minikf-troubleshooting/run-step-error-rok.jpg "Title"). 
-**Answer**: Hi @username, it seems that you are out of space, you should delete
-some workflows and/or PVCs. Let me know if this works.
 
 ## MiniKF Logs
 Collecting MiniKF logs depends on where MiniKF is being used. 
 
 ### Vagrant
 For Vagrant, in general, to collect and review logs you must:
-1. `vagrant ssh` into your MiniKF VM
+
+1. `vagrant ssh` into your MiniKF VM. 
 2. run `minikf-gather-logs`. This will produce a tarball `.tgz` file in your
-   MiniKF directory.
-3. Open the tarball file to see logs.
+   MiniKF directory.  
+3. Open the tarball file to see logs.  
 4. When necessary and instructed share the tarball file with Arrikto experts. 
 
 ### GCP
-For GCP, in general, to collect and review logs you must:
-1. [SSH from the Browser window](https://cloud.google.com/compute/docs/ssh-in-browser)
+For GCP, in general, to collect and review logs you must: 
+
+1. [SSH from the Browser window](https://cloud.google.com/compute/docs/ssh-in-browser). 
 2. run `minikf-gather-logs`. This will produce a tarball `.tar.bz2` file under
-   `/vagrant/`.
+   `/vagrant/`.  
 3. Download the file as described in [this guide](https://cloud.google.com/compute/docs/instances/transfer-files#transferbrowser).
-   The exact path to download the logs file is `/vagrant/minikf-logs-<date>-<time>.tar.bz2`.
-4. Open the tarball file to see logs.
-5. When necessary and instructed share the tarball file with Arrikto experts. 
+   The exact path to download the logs file is `/vagrant/minikf-logs-<date>-<time>.tar.bz2`.  
+4. Open the tarball file to see logs.  
+5. When necessary and instructed share the tarball file with Arrikto experts.   
