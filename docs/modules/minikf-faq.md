@@ -147,14 +147,14 @@ You will need to select a region with a greater quota limit. Please request a qu
 ### MiniKF & Windows
 **Question**: If i have to install Kubeflow on Windows should I install MiniKF
 only or is there is something else I can install?  
-**Answer**: Hi @username, you should only install MiniKF assuming you already
+**Answer**: You should only install MiniKF assuming you already
 have Vagrant and VirtualBox on your windows machine. See the requirements here:
 https://www.kubeflow.org/docs/other-guides/virtual-dev/getting-started-minikf/
 
 ### MiniKF & MacOS
 **Question**: I’d like to try MiniKF on macos, but I don’t want to install
 VirtualBox. How can I get it working with HyperKit or Docker?  
-**Answer**: Hi @username, VirtualBox is a prerequisite for using MiniKF on your
+**Answer**: VirtualBox is a prerequisite for using MiniKF on your
 laptop. As an alternative, you can use MiniKF on GCP:
 https://www.kubeflow.org/docs/started/workstation/minikf-gcp/
 
