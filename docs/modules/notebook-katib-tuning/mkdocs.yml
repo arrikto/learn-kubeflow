@@ -1,0 +1,103 @@
+site_name: Arrikto Academy
+site_url: https://academy.arrikto.com
+
+repo_name: arrikto/learn-kubeflow
+repo_url: https://github.com/arrikto/learn-kubeflow
+edit_uri: ""
+
+plugins:
+  - search
+  - include-markdown
+
+theme:
+  name: material
+  logo: assets/arrikto-mark-white-900px.png
+  palette: 
+    primary: black
+    accent: indigo
+  features:
+#    - content.tabs.link
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - search.suggest
+#    - navigation.top
+
+extra:
+  analytics:
+    provider: google
+    property: UA-49880327-14
+
+extra_javascript:
+  - javascripts/bp.js
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Kale 101:
+      - Home: modules/notebook-to-pipeline/index.md
+      - Introduction:
+        - Course Overview: modules/notebook-to-pipeline/introduction.md
+        - Notebook Walkthrough: modules/notebook-to-pipeline/working-example.md
+        - Deploy MiniKF on GCP: modules/notebook-to-pipeline/minikf-gcp.md
+        - Deploy a Notebook Server: modules/notebook-servers/notebook-server-base-image.md
+        - Get Dataset and Code: modules/notebook-to-pipeline/upload-handouts.md
+      - Pipeline Step Fundamentals:
+        - Single-Cell Pipeline Steps: modules/notebook-to-pipeline/steps/single-cell.md
+        - Multi-Cell Pipeline Steps: modules/notebook-to-pipeline/steps/multi-cell.md
+        - Pipeline Step Dependencies: modules/notebook-to-pipeline/steps/dependencies.md
+      - Working with Imports:
+        - Gather Imports in One Cell: modules/notebook-to-pipeline/imports/why-organize-imports.md
+        - Apply the Imports Annotation: modules/notebook-to-pipeline/imports/example.md
+        - 'Lab: Imports': modules/notebook-to-pipeline/imports/lab-imports.md 
+      - Excluding Cells from Pipelines: 
+        - Skip Cells Not Used in a Step: modules/notebook-to-pipeline/exclude/skip-cells.md
+        - 'Lab: Skip Cells': modules/notebook-to-pipeline/exclude/lab-skip-cells.md
+        - Skip Sections Not Used: modules/notebook-to-pipeline/exclude/skip-sections.md
+        - 'Lab: Skip Section': modules/notebook-to-pipeline/exclude/lab-skip-section.md
+      - Kale Fundamentals Labs:
+        - 'Lab: Create prep_data Step': modules/notebook-to-pipeline/fundamentals-labs/lab-prep_data.md
+        - 'Lab: Create split_data Step': modules/notebook-to-pipeline/fundamentals-labs/lab-split_data.md
+        - 'Checkpoint: Kale Fundamentals': modules/notebook-to-pipeline/checkpoint-fundamentals.md 
+      - Pipeline Design:
+        - Design for Iteration: modules/notebook-to-pipeline/pipeline-design/iteration.md
+        - 'Lab: RF train and eval steps': modules/notebook-to-pipeline/pipeline-design/lab-rf-train-eval.md
+        - 'Lab: XGB train and eval steps': modules/notebook-to-pipeline/pipeline-design/lab-xgb-train-eval.md
+        - Functions Cells: modules/notebook-to-pipeline/pipeline-design/functions.cells.md
+        - Steps w/ Multiple Dependencies: modules/notebook-to-pipeline/pipeline-design/steps-with-multiple-dependencies.md
+        - 'Checkpoint: Pipeline Design': modules/notebook-to-pipeline/pipeline-design/checkpoint.md 
+        - Run Our Pipeline: modules/notebook-to-pipeline/pipeline-design/run-our-pipeline.md
+      - Lab Solutions:
+        - 'Solution - Lab: Imports': modules/notebook-to-pipeline/imports/lab-imports-solution.md
+        - 'Solution - Lab: Skip Cells': modules/notebook-to-pipeline/exclude/lab-skip-cells-solution.md
+        - 'Solution - Lab: Create prep_data': modules/notebook-to-pipeline/fundamentals-labs/lab-prep_data-solution.md
+        - 'Solution - Lab: Create split_data': modules/notebook-to-pipeline/fundamentals-labs/lab-split_data-solution.md
+        - 'Solution - Lab: RF train and eval': modules/notebook-to-pipeline/pipeline-design/lab-rf-train-eval-solution.md
+        - 'Solution - Lab: XGB train and eval': modules/notebook-to-pipeline/pipeline-design/lab-xgb-train-eval-solution.md
+  - Katib 101:
+      - Home: modules/notebook-katib-tuning/index.md
+      - Introduction: 
+        - Course Overview: modules/notebook-katib-tuning/katib-101-overview.md
+        - Notebook Walkthrough: modules/notebook-to-pipeline/working-example.md
+        - Deploy MiniKF on GCP: modules/deploy/minikf-gcp.md
+        - Deploy a Notebook Server: modules/notebook-katib-tuning/notebook-server-base-image.md
+        - Get Dataset and Code: modules/notebook-katib-tuning/upload-handouts.md
+      - Hyperparameter Tuning: 
+        - Hyperparameter Tuning Overview: modules/notebook-katib-tuning/hyperparamter-overview.md
+        - Preparing Hyperparameter Tuning Ideal Model: modules/notebook-katib-tuning/preparing-hyperparameter-tuning.md
+        - 'Lab: Identify Ideal Model': modules/notebook-katib-tuning/labs/lab-identify-model.md
+        - Preparing Hyperparameter Tuning Hyperparameters & Objectives: modules/notebook-katib-tuning/preparing-hyperparameter-tuning-parttwo.md
+      - Katib Experiments:
+        - Katib Job: modules/notebook-katib-tuning/katib-job.md
+        - 'Lab: Set Up Katib Job': modules/notebook-katib-tuning/labs/lab-set-up-katib-job.md
+        - Katib Output: modules/notebook-katib-tuning/katib-output.md
+        - 'Lab: Interpret Katib Output': modules/notebook-katib-tuning/labs/lab-interpret-katib-output.md
+      - Next Steps:
+        - Next Steps: modules/notebook-katib-tuning/katib-tuning-next-steps.md
+  - MiniKF FAQ: modules/minikf-faq.md
+
