@@ -26,7 +26,7 @@ theme:
 extra:
   analytics:
     provider: google
-    property: UA-49880327-14
+    property: UA-84825051-7
 
 extra_javascript:
   - javascripts/bp.js
