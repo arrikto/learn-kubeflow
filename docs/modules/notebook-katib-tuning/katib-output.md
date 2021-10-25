@@ -12,7 +12,7 @@ Kale you can confirm the pipeline created by clicking VIEW.
 {: style="display: block; margin: auto; width:80%"}
 
 ## Experiments (KFP)
-The Experiments (KFP) page shows the experiments that have been run in KubeFlow Pipelines with the names based on the Kale and 
+The Experiments (KFP) page shows the experiments that have been run in KubeFlow pipelines with the names based on the Kale and 
 Katib inputs from the JupyterLabs Notebook. Selecting an individual experiment will provide a list of the individual runs that 
 comprise the experiments, keeping in mind that this number is limited based on values provided in the Run Parameters section. 
 The page also displays at the end of each run the value achieved for the Search Objective. 

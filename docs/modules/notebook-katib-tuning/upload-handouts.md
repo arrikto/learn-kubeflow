@@ -1,7 +1,6 @@
 # Get Dataset and Code
 
 To work through this module you will need the code and data we have provided. 
-This module will build on the notebook created in Kale 101. 
 If you are not familiar with Kale we strongly recommend you complete Kale 101.
 If you do not have the completed notebook available you may download and unzip the [handout](handouts/learn_katib_pipelines_handouts.zip). 
 
@@ -18,11 +17,11 @@ Once you’ve unzipped the handout, you should see the following files.
 
 `data_dictionary-carprices.xlsx` contains examples images for the notebook and will need to be treated as a separate folder.
 
-`dogImages` provides some explanatory detail on our dataset.
-
 `predict_car_price_katib.ipynb` is a notebook containing Python code that builds and evaluates three models 
 for predicting car prices based on our dataset. We will build on the modified and annoted code from Kale 101 
 to define and run Katib Experiments in Kubeflow Pipelines! 
+
+`requirements.txt` lists the Python modules required for our notebook. We'll use this file to install those requirements in a later step.
 
 #### 2. Open the learn-katib-pipelines-vol-1 folder
 
@@ -71,7 +70,7 @@ data folder.
 
 #### 8. Open our notebook
 
-Double-click `predict_car_price_katib.ipynb` in the file browser pane.
+Double-click `predict_car_price.ipynb` in the file browser pane.
 
 ![open our notebook](images/open-notebook.png)
 {: style="display: block; margin: auto; width:80%"}

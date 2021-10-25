@@ -6,13 +6,13 @@ Identify the ideal hyperparameters by reviewing the output from either the *Expe
 
 ## Hint
 
-??? hint
+??? hint "View Hint"
     - In the Experiments (KFP) UI you need to select the experiment set and review the column for the desired objective. 
     - In the Experiments (AutoML) UI you need to scroll down to the summary section.
 
 ## Solutions
 
-??? success
+??? success "View Solution"
     For *Experiments(KFP)* Select the experiment with the best objective metric score, 
     click the Config Tab, scroll down to the Parameters. 
     ![experiment-kfp-output](images/experiment-kfp-output.png)

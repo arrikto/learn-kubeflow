@@ -2,8 +2,9 @@
 
 ## Summary
 In this course you have learned to do the following:
+
 - Evaluate multiple models within a notebook to identify the best model for hyperparamter tuning.
-- Prepare a Jupyter Notebook for hyperparameter tuning by isolating and tagging Pipeline Metrics.
+- Prepare a Jupyter Notebook for hyperparameter tuning by isolating and tagging ``Pipeline Metrics`.
 - Create an execute a Katib Job and review output to identify the ideal hyperparameters. 
 
 ## Next Steps
