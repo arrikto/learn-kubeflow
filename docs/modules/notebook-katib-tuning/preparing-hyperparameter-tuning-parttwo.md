@@ -33,11 +33,22 @@ Scroll down to the cell where the xgb model is created and edit the cell as per 
 ![parametized xgboost](images/parametized-xgboost.png)
 {: style="display: block; margin: auto; width:80%"}
 
-## 3. Set Pipeline Metrics for Optimization 
-In order to perform an experiment within Kale you will need to add `print(eval_metric)` statements into the final cell of the notebook. You will also need to tag this cell
-with _Pipeline Metrics_. 
+```
+xgb1 = XGBRegressor()
+parameters = {'n_estimators': [NUM_ESTIMATORS], 'max_depth': [MAX_DEPTH], 'learning_rate': [LEARNING_RATE]}
+xgb_grid = GridSearchCV(xgb1,parameters,cv = 2)
 
-Create a new cell at the bottom of the Notebook and enter `print(xgb_r2_score)`. 
+xgb_grid.fit(x,y)
+```
+
+## 3. Set Pipeline Metrics for Optimization 
+In order to perform an experiment within Kale you will need to add print(eval_metric) statements into the final cell of the notebook. You will also need to tag this cell with _Pipeline Metrics_. 
+
+Create a new cell at the bottom of the Notebook and enter 
+
+````
+print(xgb_r2_score)
+````
 
 ![creating pipeline metrics](images/creating-pipeline-metrics.png)
 {: style="display: block; margin: auto; width:80%"}

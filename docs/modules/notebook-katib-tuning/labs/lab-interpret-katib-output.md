@@ -8,7 +8,9 @@ Identify the ideal hyperparameters by reviewing the output from either the *Expe
 
 ??? hint "View Hint"
     - In the Experiments (KFP) UI you need to select the experiment set and review the column for the desired objective. 
-    - In the Experiments (AutoML) UI you need to scroll down to the summary section.
+    - In the Experiments (AutoML) UI you can either
+        - Scroll down to the summary section.
+        - Navigate to the *Trials* tab and view the highlighted trial. 
 
 ## Solutions
 
