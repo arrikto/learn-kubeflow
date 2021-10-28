@@ -15,7 +15,7 @@ Before running your model make sure that you are outputting model measurements.
     Please follow along in your own copy of our notebook as we complete the steps below.
 
 ### 1. Confirm Output from Eval Steps
-Notice that the eval_* steps contain code to print out model quality measurements. 
+Notice that the `eval_*` steps contain code to print out model quality measurements. 
 
 ![output code](images/output-code.png)
 {: style="display: block; margin: auto; width:80%"}
@@ -34,7 +34,7 @@ Confirm successful execution by viewing the output from Kale.
 {: style="display: block; margin: auto; width:80%"}
 
 ### 3. Access Kubeflow Pipeline
-Click `View` next to `Running pipeline` to access the relevant Kubeflow pipelines logs for analysis.
+Click _View_ next to _Running pipeline_ to access the relevant Kubeflow pipelines logs for analysis.
 
 ![view pipeline](images/view-pipeline.png)
 {: style="display: block; margin: auto; width:80%"}
@@ -45,7 +45,7 @@ Once in the pipeline display scroll down to observe three pipelines, executed in
 {: style="display: block; margin: auto; width:80%"}
 
 ### 4. Review A Model
-Click `eval_lgbm` and then click `logs` to see the quality metric output. 
+Click `eval_lgbm` and then click _Logs_ to see the quality metric output. 
 
 ![eval model logs](images/eval-model-logs.png)
 {: style="display: block; margin: auto; width:80%"}

@@ -13,7 +13,7 @@ that you will need to set.
     Please follow along in your own Notebook for the subsequent steps.
     
 ### 1. Toggle Enable Katib
-Toggle *Enable Katib* from the Kale UI.
+Toggle _Enable Katib_ from the Kale UI.
 
 ![enable katib](images/enable_katib.png)
 {: style="display: block; margin: auto; width:80%"}
@@ -30,7 +30,7 @@ Before proceeding we will pause to review the Katib Job configuration options.
 ## Search Space Parameters
 The Search Space Parameters are the set of all possible hyperparameter values that the Katib trials will adjust while attempting 
 to optimize the Search Objective. Note that Katib will automatically pick up the Search Space Parameters from the cell tagged 
-`Pipeline Parameters`. For each hyperparameter, you may provide a minimum and maximum value or a list of allowable values. 
+_Pipeline Parameters_. For each hyperparameter, you may provide a minimum and maximum value or a list of allowable values. 
 Katib will test different values for the Search Space Parameters using this range or list of values during experimentation to 
 optimize for the best model. 
 
@@ -40,7 +40,7 @@ the Search Objective. Katib in MiniKF or EKF offers several Search Algorithms fo
 
 ## Search Objective
 The Search Objective is the metric you want the hyperparameter tuning to optimize. 
-Note that this is picked up from the `Pipeline Metrics` cell tagged via Kale. 
+Note that this is picked up from the _Pipeline Metrics_ cell tagged via Kale. 
 You also specify whether you want the hyperparameter tuning job to maximize or minimize the metric. 
 The default way to calculate the experiment’s objective is:
 
@@ -57,7 +57,7 @@ is reached or the experiment reaches a maximum number of failed trials.
 - maxFailedTrialCount: The maximum number of failed trials before Katib should stop the experiment. This is equivalent to the number of failed hyperparameter sets that Katib should test. If the number of failed trials exceeds maxFailedTrialCount, Katib stops the experiment with a status of Failed.
 
 ## Advanced Settings
-In addition to standard set up the `Advanced Settings` allows you to configure a few additional parameters.
+In addition to standard set up the _Advanced Settings_ allows you to configure a few additional parameters.
  
 - You may select the docker image. 
 - You may enable debugability. 

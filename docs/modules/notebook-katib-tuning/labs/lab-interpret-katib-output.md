@@ -15,11 +15,16 @@ Identify the ideal hyperparameters by reviewing the output from either the *Expe
 ## Solutions
 
 ??? success "View Solution"
-    For *Experiments(KFP)* Select the experiment with the best objective metric score, 
-    click the Config Tab, scroll down to the Parameters. 
+    For *Experiments(KFP)* Select the experiment with the best objective metric score, click the Config Tab, scroll down to the Parameters. 
     ![experiment-kfp-output](images/experiment-kfp-output.png)
     {: style="display: block; margin: auto; width:80%"}
     
     For *Experiments(KFP)* Scroll down to the Parameters: 
     ![experiment-automl-output](images/experiment-automl-output.png)
     {: style="display: block; margin: auto; width:80%"}
+
+    To see which trial produced the best result select _Trials_ and 
+    identify the highlighted row:
+    ![experiment-kfp-output](images/trials-highlighted.png)
+    {: style="display: block; margin: auto; width:80%"}
+

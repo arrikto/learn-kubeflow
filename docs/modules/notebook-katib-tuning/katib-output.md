@@ -21,17 +21,19 @@ The page also displays at the end of each run the value achieved for the Search 
 {: style="display: block; margin: auto; width:80%"}
 
 ## Experiments (AutoML)
-The Experiments (AutoML) page shows the list of experiments will showcase great detail about the trial runs and the associated 
-hyperparameters that Katib is attempting to optimize. The page opens to a  graph showing the experiments and the hyperparameter values considered. 
+The Experiments (AutoML) page shows the list of experiments.
+
+![katib-experiment-automl](images/katib-experiments-automl.png)
+{: style="display: block; margin: auto; width:80%"}
+
+Selecting an expirement will show greater detail about the trial runs and the associated hyperparameters that Katib is attempting to optimize. The page opens to a graph showing the experiments and the hyperparameter values considered. 
 
 ![katib-ui-graph](images/katib-experiments-automl.png)
 {: style="display: block; margin: auto; width:80%"}
 
-In addition to the number of runs and the breakdown of successful and failed 
-runs the page also shows the achieved value of the optimal Search Objective. Selecting an individual run provides greater detail about 
-the experiment and will also show the optimized hyperparameters.
+Scrolling down shows the number of runs and the breakdown of successful and failed runs as well as the achieved value of the optimal Search Objective. 
 
-![katib-experiment-automl](images/katib-experiments-automl.png)
+![katib-ui-details](images/katib-ui-details.png)
 {: style="display: block; margin: auto; width:80%"}
 
 ## Ideal Model
