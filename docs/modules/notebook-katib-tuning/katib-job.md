@@ -50,13 +50,13 @@ The default way to calculate the experiment’s objective is:
 ## Run Parameters
 The Run Parameters put boundaries on the trials and Katib will run the experiment until the corresponding successful trials reach maxTrialCount. 
 
+````
 - parallelTrialCount: The maximum number of hyperparameter sets that Katib should train in parallel. The default value is 3.
 - maxTrialCount: The maximum number of trials to run. This is equivalent to the number of hyperparameter sets that Katib 
 should generate to test the model. If the maxTrialCount value is omitted, your experiment will be running until the objective goal 
 is reached or the experiment reaches a maximum number of failed trials.
-- maxFailedTrialCount: The maximum number of failed trials before Katib should stop the experiment. 
-This is equivalent to the number of failed hyperparameter sets that Katib should test. If the number of failed trials exceeds 
-maxFailedTrialCount, Katib stops the experiment with a status of Failed.
+- maxFailedTrialCount: The maximum number of failed trials before Katib should stop the experiment. This is equivalent to the number of failed hyperparameter sets that Katib should test. If the number of failed trials exceeds maxFailedTrialCount, Katib stops the experiment with a status of Failed.
+````
 
 ## Advanced Settings
 In addition to standard set up the `Advanced Settings` allows you to configure a few additional parameters.

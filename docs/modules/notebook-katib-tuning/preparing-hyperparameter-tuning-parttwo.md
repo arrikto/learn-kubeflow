@@ -17,6 +17,12 @@ Create three new hyperparameters with the respective default values.
 ![hyperparam-cell](images/hyperparam-cell.png)
 {: style="display: block; margin: auto; width:80%"}
 
+````
+NUM_ESTIMATORS = 500
+MAX_DEPTH = 3
+LEARNING_RATE = 0.01
+````
+
 Click the edit icon and tag the cell with _Pipeline Parameters_. 
 
 ![hyperparam-cell-tagged](images/hyperparam-cell-tagged.png)
