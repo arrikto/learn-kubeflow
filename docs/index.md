@@ -10,5 +10,5 @@ workflows with Kubeflow.
 ## Courses
 
 * [Kale 101: Transform Jupyter Notebooks into Kubeflow Pipelines](modules/notebook-to-pipeline/)
-* Katib 101: Automated Hyperparameter Tuning for Models in Kubeflow Pipelines (Coming Soon)
+* [Katib 101: Automated Hyperparameter Tuning for Models in Kubeflow Pipelines ](modules/notebook-katib-tuning)
 

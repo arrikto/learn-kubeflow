@@ -79,5 +79,26 @@ nav:
         - 'Solution - Lab: Create split_data': modules/notebook-to-pipeline/fundamentals-labs/lab-split_data-solution.md
         - 'Solution - Lab: RF train and eval': modules/notebook-to-pipeline/pipeline-design/lab-rf-train-eval-solution.md
         - 'Solution - Lab: XGB train and eval': modules/notebook-to-pipeline/pipeline-design/lab-xgb-train-eval-solution.md
+  - Katib 101:
+      - Home: modules/notebook-katib-tuning/index.md
+      - Introduction: 
+        - Course Overview: modules/notebook-katib-tuning/katib-101-overview.md
+        - Notebook Walkthrough: modules/notebook-to-pipeline/working-example.md
+        - Deploy MiniKF on GCP: modules/deploy/minikf-gcp.md
+        - Deploy a Notebook Server: modules/notebook-katib-tuning/notebook-server-base-image.md
+        - Get Dataset and Code: modules/notebook-katib-tuning/upload-handouts.md
+      - Hyperparameter Tuning: 
+        - Hyperparameter Tuning Overview: modules/notebook-katib-tuning/hyperparameter-overview.md
+        - Preparing Hyperparameter Tuning Ideal Model: modules/notebook-katib-tuning/preparing-hyperparameter-tuning.md
+        - 'Lab: Identify Ideal Model': modules/notebook-katib-tuning/labs/lab-identify-model.md
+        - Preparing Hyperparameter Tuning Hyperparameters & Objectives: modules/notebook-katib-tuning/preparing-hyperparameter-tuning-parttwo.md
+        - 'Lab: Hyperparameter Tuning Preparation': modules/notebook-katib-tuning/labs/lab-tuning-preparation.md
+      - Katib Experiments:
+        - Katib Job: modules/notebook-katib-tuning/katib-job.md
+        - 'Lab: Set Up Katib Job': modules/notebook-katib-tuning/labs/lab-set-up-katib-job.md
+        - Katib Output: modules/notebook-katib-tuning/katib-output.md
+        - 'Lab: Interpret Katib Output': modules/notebook-katib-tuning/labs/lab-interpret-katib-output.md
+      - Next Steps:
+        - Next Steps: modules/notebook-katib-tuning/katib-tuning-next-steps.md
   - MiniKF FAQ: modules/minikf-faq.md
 
