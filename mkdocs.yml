@@ -100,5 +100,20 @@ nav:
         - 'Lab: Interpret Katib Output': modules/notebook-katib-tuning/labs/lab-interpret-katib-output.md
       - Next Steps:
         - Next Steps: modules/notebook-katib-tuning/katib-tuning-next-steps.md
+  - Rok 101: 
+      - Home: modules/rok-snapshotting/index.md
+      - Introduction: 
+        - Course Overview: modules/rok-snapshotting/rok-101-overview.md
+        - Notebook Walkthrough: modules/notebook-to-pipeline/working-example.md
+        - Deploy MiniKF on GCP: modules/deploy/minikf-gcp.md
+        - Deploy a Notebook Server: modules/rok-snapshotting/notebook-server-base-image.md
+        - Get Dataset and Code: modules/rok-snapshotting/upload-handouts.md
+      - Rok Basics:
+        - Rok Overview: modules/rok-snapshotting/rok-overview.md
+        - Rok Snapshot Basics: modules/rok-snapshotting/rok-snapshot-basics.md
+        - 'Lab: Initial Volume Mounts': modules/rok-snapshotting/labs/lab-initial-volume-mounts.md
+        - Rok Bucket Basics: modules/rok-snapshotting/rok-bucket-basics.md
+      - Snapshot Restoration:
+        - Rok Snapshot Restoration: modules/rok-snapshotting/rok-snapshot-restoration.md
   - MiniKF FAQ: modules/minikf-faq.md
 
