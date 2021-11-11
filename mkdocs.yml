@@ -11,10 +11,10 @@ plugins:
 
 theme:
   name: material
-  logo: assets/arrikto-mark-white-900px.png
+  logo: assets/academy-logo.svg
   palette: 
     primary: black
-    accent: indigo
+    accent: arrikto
   features:
 #    - content.tabs.link
     - navigation.tabs
@@ -27,15 +27,29 @@ extra:
   analytics:
     provider: google
     property: UA-84825051-7
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/arrikto
+    - icon: fontawesome/brands/twitter
+      link: https://www.twitter.com/arrikto
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/arrikto
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/arrikto
+
 
 extra_javascript:
   - javascripts/bp.js
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.extra
 
 nav:
   - Home: index.md

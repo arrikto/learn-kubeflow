@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>rok-24</title>
+    <defs>
+        <circle id="path-1" cx="12" cy="12" r="12"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-with-icons-copy" transform="translate(-733.000000, -1210.000000)">
+            <g id="roke/common/icon/24" transform="translate(733.000000, 1210.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval-Copy-66" fill="#4A90E2" xlink:href="#path-1"></use>
+                <rect id="Rectangle-10-Copy-3" stroke="#FFFFFF" mask="url(#mask-2)" x="1.5" y="1.5" width="21" height="21"></rect>
+                <rect id="Rectangle-10-Copy" stroke="#FFFFFF" mask="url(#mask-2)" x="5.5" y="5.5" width="13" height="13"></rect>
+                <path d="M14.5,9.5 L14.5,14.5 L9.5,14.5 L9.5,9.5 L14.5,9.5 Z" id="Rectangle-10-Copy-4" stroke="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
