@@ -11,10 +11,10 @@ plugins:
 
 theme:
   name: material
-  logo: assets/arrikto-mark-white-900px.png
+  logo: assets/academy-logo.svg
   palette: 
     primary: black
-    accent: indigo
+    accent: arrikto
   features:
 #    - content.tabs.link
     - navigation.tabs
@@ -31,11 +31,15 @@ extra:
 extra_javascript:
   - javascripts/bp.js
 
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.extra
 
 nav:
   - Home: index.md

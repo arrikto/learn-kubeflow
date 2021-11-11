@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Katib-24</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="2-with-icons" transform="translate(-335.000000, -779.000000)">
-            <rect id="Rectangle" fill="#FFFFFF" x="249" y="459" width="952" height="673"></rect>
-            <g id="Group-15-Copy" transform="translate(336.000000, 780.000000)">
+        <g id="2-with-icons-copy" transform="translate(-336.000000, -764.000000)">
+            <rect id="Rectangle" fill="#FFFFFF" x="240" y="435" width="960" height="673"></rect>
+            <g id="Group-15-Copy" transform="translate(336.000000, 764.000000)">
                 <polygon id="Fill-1" fill="#4279F4" points="12 0 2.3808 4.5357088 0 14.7987508 6.63 23 17.37 23 24 14.7987508 21.6192 4.5357088"></polygon>
                 <g id="Group-14" transform="translate(3.350501, 5.886766)" fill="#FFFFFF">
                     <path d="M7.8288191,6.70618441 C8.4912191,6.70618441 9.0288191,7.23370194 9.0288191,7.8836789 C9.0288191,8.53365586 8.4912191,9.0611734 7.8288191,9.0611734 C7.1664191,9.0611734 6.6288191,8.53365586 6.6288191,7.8836789 C6.6288191,7.23370194 7.1664191,6.70618441 7.8288191,6.70618441" id="Fill-2"></path>
@@ -14,6 +14,9 @@
                     <path d="M0.275899101,5.80493012 C0.119899101,6.42546972 0.706699101,7.52289459 0.821899101,7.47343982 L0.950299101,7.42634004 C0.871099101,7.36746532 0.320299101,6.68451851 0.394699101,5.77667025 L0.275899101,5.80493012 Z" id="Fill-10"></path>
                 </g>
             </g>
+            <text id="24px-copy" font-family="GTWalsheimRegular, GT Walsheim" font-size="20" font-weight="normal" letter-spacing="0.357142857" fill="#FF1111">
+                <tspan x="332" y="759">24px</tspan>
+            </text>
         </g>
     </g>
 </svg>
