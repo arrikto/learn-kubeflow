@@ -193,3 +193,25 @@ h1.landing-header {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 59.9375em) {
+  .banner,
+  h1.landing-header,
+  .landing-subheader,
+  .courses {
+    padding: 0 2rem;
+  }
+
+  .landing-bg {
+    background: none;
+  }
+}
+
+@media screen and (max-width: 44.9375em) {
+  .banner,
+  h1.landing-header,
+  .landing-subheader,
+  .courses {
+    padding: 0 1rem;
+  }
+}
