@@ -1,8 +1,14 @@
 # MiniKF FAQ
 
-We hope this FAQ helps you answer MiniKF questions, we realize we don't have all the answers because we do not yet
-have all the questions! If you are in need of additional assistance please reach out to us on the ***MiniKF channel*** 
-on the ***[Kubeflow Community](https://join.slack.com/t/kubeflow/shared_invite/zt-n73pfj05-l206djXlXk5qdQKs4o1Zkg)*** slack.
+We hope this FAQ helps you answer MiniKF questions, we realize we don't have all the answers because we do not yet have all the questions! 
+
+If you are not able to find an answer to your question below please reach out to us on the ***MiniKF channel*** 
+on the ***[Kubeflow Community](https://join.slack.com/t/kubeflow/shared_invite/zt-n73pfj05-l206djXlXk5qdQKs4o1Zkg)*** slack. For quick support and resolution when you reach out please share:
+
+1. Which instructions are you following? Please link to them.
+2. Which step is failing?
+3. What did you expect to happen?
+4. What actually happened? (logs are tremendously helpful for the community)
 
 ## Index
 - [Frequently Asked Questions (FAQ)](#faq)  
