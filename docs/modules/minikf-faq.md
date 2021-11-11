@@ -41,10 +41,12 @@ without losing the existing data. However, we do work with customers to provide
 enterprise Kubeflow support and/or support for their MiniKF deployments. If this describes 
 your situation please reach out to your account manager.
 
+**Question**: I am unable to start MiniKF due to ``account not validated`` error.  
+**Answer**: Before launching MiniKF in either GCP or AWS you must first validate your account with the cloud provider. 
+
 ### MiniKF & Tutorials
 
-**Question**: I tried to run the tutorials from https://www.arrikto.com/tutorials/ and I am running into ````missing package```` errors.
-
+**Question**: I tried to run the tutorials from https://www.arrikto.com/tutorials/ and I am running into ````missing package```` errors.  
 **Answer**: You must make sure the packages are imported by running the first cell or any import commands and then restarting the notebook kernel. As an example consider reviewing our [Kale 101 Course - Get Dataset and Code section](https://academy.arrikto.com/modules/notebook-to-pipeline/upload-handouts/)
 
 ### MiniKF & Vagrant
