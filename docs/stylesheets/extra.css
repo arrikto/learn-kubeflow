@@ -163,6 +163,11 @@ h1.landing-header {
   padding-left: 38px;
 }
 
+.course-title.rok {
+  background: url('../assets/rok-24.svg') left no-repeat;
+  padding-left: 38px;
+}
+
 .courses {
   background-color: #fff;
   padding: 2rem 4.3rem 0 4.3rem;
@@ -177,4 +182,14 @@ h1.landing-header {
 .courses > h2 {
   margin-top: 0;
   margin-bottom: 0.2rem;
+}
+
+.disabled-course {
+  opacity: 0.6;
+  filter: grayscale(1);
+}
+
+#coming-soon {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }

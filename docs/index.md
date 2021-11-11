@@ -47,4 +47,14 @@ on the fundamentals of Kale 101
 
 ----
 
+## Coming soon
+
+### Rok 101: Manage and Restore Kubeflow Pipeline Snapshots {: .course-title .rok .disabled-course }
+
+In this course we will prepare you to manage and restore your own Rok Snapshots
+ for Kubeflow Pipelines
+{: .course-desc .disabled-course }
+
+----
+
 </div>
