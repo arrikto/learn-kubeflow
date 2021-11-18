@@ -144,6 +144,12 @@ To turn it back on:
 **Question**: After completing Vagrant install unable to open http://10.10.10.10/ due to timeout.  
 **Answer**: Destroy and restart the VM to resolve the issue. 
 
+**Question**: While following the Vagrant install steps here https://v0-6.kubeflow.org/docs/other-guides/virtual-dev/getting-started-minikf/  Vagrant returns an error 
+```
+The IP address configured for the host-only network is not within the allowed ranges.
+```  
+**Answer**: This is a Vagrant issue and results from using a version after 6.1.26 (https://discourse.roots.io/t/the-ip-address-configured-for-the-host-only-network-is-not-within-the-allowed-ranges/21679/3). To correct this please use version 6.1.26 and make sure you are following the most recent directions: https://v0-6.kubeflow.org/docs/other-guides/virtual-dev/getting-started-minikf/ 
+
 ### MiniKF & GCP
 **Question**: When I try to get MiniKF to run on GCP, I get resource level
 errors.  
