@@ -110,10 +110,14 @@ nav:
         - Get Dataset and Code: modules/rok-snapshotting/upload-handouts.md
       - Rok Basics:
         - Rok Overview: modules/rok-snapshotting/rok-overview.md
+        - Rok Cluster Overview: modules/rok-snapshotting/rok-cluster-overview.md
         - Rok Snapshot Basics: modules/rok-snapshotting/rok-snapshot-basics.md
         - 'Lab: Initial Volume Mounts': modules/rok-snapshotting/labs/lab-initial-volume-mounts.md
         - Rok Bucket Basics: modules/rok-snapshotting/rok-bucket-basics.md
       - Snapshot Restoration:
         - Rok Snapshot Restoration: modules/rok-snapshotting/rok-snapshot-restoration.md
+        - 'Lab: Rok Snapshot Restoration': modules/rok-snapshotting/labs/lab-rok-snapshot-restoration.md 
+        - 'Lab: Snapshot Volume Resotration': modules/rok-snapshotting/labs/lab-snapshot-volume-restoration.md 
+        - 'Lab: Pipeline Step Restoration': modules/rok-snapshotting/labs/lab-step-snapshot-restoration.md 
   - MiniKF FAQ: modules/minikf-faq.md
 
