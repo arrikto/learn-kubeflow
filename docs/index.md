@@ -23,10 +23,20 @@ Look for more courses in the coming weeks and months as we strive to enable
 MLOps and machine learning workflows with Kubeflow.
 {: .secondary-text }
 
-### [Kubeflow 101: Learn the Kubeflow Ecosystem and Earn Associate Certification](https://www.arrikto.com/kubeflow-introduction-training-certification/) {: .course-title .kubeflow }
+### [Kubeflow 101 Live: Learn the Kubeflow Ecosystem and Earn Associate Certification](https://www.arrikto.com/kubeflow-introduction-training-certification/) {: .course-title .kubeflow }
 
 This introductory course is for Kubeflow beginners who are brand new to the
-ecosystem, the tools and technologies and the vision
+ecosystem, the tools and technologies and the vision.
+{: .course-desc }
+
+----
+
+[Kubeflow 101 On Demand: Learn the Kubeflow Ecosystem and Earn Associate
+Certification](https://www.udemy.com/course/introduction-to-kubeflow-fundamentals/)
+{: .course-title .kubeflow }
+
+This introductory course is for Kubeflow beginners who are brand new to the
+ecosystem, the tools and technologies and the vision.
 {: .course-desc }
 
 ----
@@ -42,19 +52,19 @@ existing code or from scratch as you develop new models.
 ### [Katib 101: Automated Hyperparameter Tuning for Models in Kubeflow Pipelines ](modules/notebook-katib-tuning) {: .course-title .katib }
 
 In this course we will prepare you to hyperparameter tune your models building
-on the fundamentals of Kale 101
+on the fundamentals of Kale 101.
 {: .course-desc }
 
 ----
 
-## Coming soon
-
-### Rok 101: Manage and Restore Kubeflow Pipeline Snapshots {: .course-title .rok .disabled-course }
+### [Rok 101: Manage and Restore Kubeflow Pipeline Snapshots](modules/rok-snapshotting) {: .course-title .rok }
 
 In this course we will prepare you to manage and restore your own Rok Snapshots
- for Kubeflow Pipelines
-{: .course-desc .disabled-course }
+ for Kubeflow Pipelines.
+{: .course-desc }
 
 ----
+
+[//]: # (## Coming soon)
 
 </div>
