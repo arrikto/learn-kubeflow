@@ -1,8 +1,8 @@
 # Lab: Rok Snapshot Restoration
-Rok Snapshots are stored in a Rok Bucket which can be referenced and restored during creation of a Notebook Server. 
+Rok Snapshots Sets are stored in a Rok Bucket which can be referenced and restored during creation of a Notebook Server. 
 
 ## Requirements 
-Create a new Notebook Server using the Rok Snapshot that was created during the *Rok Snapshot Basics* section. Confirm successful restoration by opening the Notebook. 
+Create a new Notebook Server using the Rok Snapshot Set that was created during the *Rok Snapshot Basics* section. Confirm successful restoration by opening the Notebook. 
 
 ## Hint
 
@@ -14,7 +14,7 @@ Create a new Notebook Server using the Rok Snapshot that was created during the 
 
 ??? success "View Solution"
 
-     First you must copy the snapshot URL.  
+     First you must copy the snapshot set URL.  
 
      ![copy snapshot url](images/copy-snapshot-url.png)  
 
