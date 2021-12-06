@@ -317,7 +317,7 @@ Annotate the cell in the *Build Models* section of your notebook and call it `sp
 
 ### 9. Finish Designing Pipeline
 To complete your pipeline we need to do a little code reorganization. We’ll be
-training and evaluating three models simultaneously. It doesn’t make sense to
+training and evaluating three models simultaneously. It does not make sense to
 combine the model training and evaluation code in a single cell or step, which is how the notebook is currently configured on the back of investigation. We can use the resources of a Kubernetes cluster more efficiently if we split
 these phases into separate pipeline steps.
 
@@ -462,7 +462,7 @@ print(xgb_r2_score)
 
 ![creating pipeline metrics](images/creating-pipeline-metrics.png){: style="display: block; margin: auto; width:80%"}
 
-Tag the cell with `pipeline-metircs` so Kale recognizes this cell when creating the Katib Job. When completed your cell should look like this.
+Tag the cell with `pipeline-metrics` so Kale recognizes this cell when creating the Katib Job. When completed your cell should look like this.
 
 ![pipeline metrics xgb](images/pipeline-metrics-xgb.png){: style="display: block; margin: auto; width:80%"}
 
@@ -484,7 +484,11 @@ Perform the same for the `train_rf` and `eval_rf` cells.
 ### 3. Set Up Katib Job 
 
 The preparation done in advance ensures that when you go to configure a Katib Job all the options will be prepopulated or will be based on
-what has been defined in the notebook cells. To configure the hyperparameter tuning job you will need to configure each of the following in the Set Up Katib Job UI.
+what has been defined in the notebook cells. Toggle the `HP Tuning with Katib` option to set up the Katib Job.
+
+![toggle katib tuning](images/toggle-katib-tuning.png){: style="display: block; margin: auto; width:80%"}
+
+To configure the hyperparameter tuning job you will need to configure each of the following in the Set Up Katib Job UI.
 
 - NUM_ESTIMATORS should start at 400 and go to 600 at intervals of 10.
 - MAX_DEPTH should be between 1 and 5 at intervals of 1.
@@ -492,7 +496,7 @@ what has been defined in the notebook cells. To configure the hyperparameter tun
 
 Additionally:
 
-- The Search Algorith should be Grid Search.
+- The Search Algorithm should be Grid Search.
 - The Search Objective should be maximizing the value of r squared. 
 You should do at last 3 trials, at most 12 and stop after 3 failed attempts. 
 
@@ -509,7 +513,7 @@ Navigate to the Experiments(AutoML) UI to confirm that the Katib Job is being ex
 
 ![katib experiments auto ml](images/katib-experiments-automl.png){: style="display: block; margin: auto; width:80%"}
 
-Once the experiments have completed you will be able to select this entry to view the results. The UI will show a graph of attempted values and scrolling down will show the opmtimized values. Your output will look like this.
+Once the experiments have completed you will be able to select this entry to view the results. The UI will show a graph of attempted values and scrolling down will show the optimized values. Your output will look like this.
 
 ![katib job optimized](images/katib-job-optimized.png){: style="display: block; margin: auto; width:80%"}
 
@@ -527,7 +531,7 @@ Expanding the `arrikto101-lab` bucket will show the list of snapshots that have 
 ![rok ui buckets snapshots](images/rok-ui-buckets-snapshots.png){: style="display: block; margin: auto; width:80%"}
 
 ### 3. Copy URL for Snapshot
-Copy the URL from the top Rok Snapshot.
+In the Kubeflow UI create a new Notebook Server and copy the URL from the top Rok Snapshot.
 
 ![rok bucket url](images/rok-bucket-url.png){: style="display: block; margin: auto; width:80%"}
 
