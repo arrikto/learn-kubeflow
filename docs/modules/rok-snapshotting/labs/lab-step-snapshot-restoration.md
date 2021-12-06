@@ -1,8 +1,8 @@
 # Lab: Step Snapshot Restoration
-Rok takes snapshots before and after each step in the Kubeflow pipeline. Step snapshots can be referenced and restored during the creation of a Notebook Server. This will restore the exact state of processing into the Notebook Server memory for the Notebook that is created with the snapshot. This way you can recreate the exact moment that the snapshot was taken during processing. 
+Rok takes snapshots before and after each step in the Kubeflow pipeline. Rok Group Snapshots for pipeline steps can be referenced and restored during the creation of a Notebook Server. This will restore the exact state of processing into the Notebook Server memory for the Notebook that is created with the snapshot. This way you can recreate the exact moment that the snapshot was taken during processing. 
 
 ## Requirements 
-Create a new Notebook Server using the Snapshot for the `clean_data` step from the Kubeflow pipeline execution that was triggered during the *Rok Snapshot Basics* section. Confirm successful restoration by opening the Notebook.
+Create a new Notebook Server using the Rok Group Snapshot for the `clean_data` step from the Kubeflow pipeline execution that was triggered during the *Rok Snapshot Basics* section. Confirm successful restoration by opening the Notebook.
 
 ## Hint
 

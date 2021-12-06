@@ -1,8 +1,8 @@
 # Lab: Volume Snapshot Restoration
-Rok Snapshots are stored in a Rok Bucket and the specific Snapshot Volumes can be referenced and restored during creation of a Notebook Server. 
+Rok Snapshots Sets are stored in a Rok Bucket and the specific workspace or data volume snapshot can be referenced and restored during creation of a Notebook Server. 
 
 ## Requirements 
-Create a new Notebook Server using the Volumes contained in the Rok Snapshot that was created during the *Rok Snapshot Basics* section. Confirm successful restoration by opening the Notebook. 
+Create a new Notebook Server using the workspace and data volume snapshot contained in the Rok Snapshot Set that was created during the *Rok Snapshot Basics* section. Confirm successful restoration by opening the Notebook. 
 
 ## Hint
 
