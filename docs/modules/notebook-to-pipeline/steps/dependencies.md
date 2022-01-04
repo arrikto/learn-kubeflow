@@ -18,6 +18,8 @@ sequence in which these two steps should execute.
 With the work we’ve done so far, we now have a two-step pipeline that we can
 summarize as follows.
 
+![pipeline-design](images/pipeline-design.png){: style="display: block; margin: auto; width:80%"}
+
 !!! important "Make sure you understand your data dependencies"
     When considering how to organize your notebook into a Kubeflow pipeline it
     is essential that you assess the data dependencies between steps and ensure
